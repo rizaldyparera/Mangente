@@ -17,7 +17,7 @@ function Hero () {
                                 </Link>
                             </div>                          
                         <div className="flex w-full justify-end">
-                            <img src="/Assets/bg-hero.png" className="w-[240px] sm:w-[250px] md:w-[300px] xl:w-[360px] z-40" alt="" />
+                            <img src="/Assets/bg-hero.png" className="w-[225px] sm:w-[250px] md:w-[300px] xl:w-[360px] z-40" alt="" />
                         </div>
                         </div>
                             <img src="/Assets/bg-line.png" className="absolute top-0 hidden md:block md:w-[150px] md:h-[425px] xl:w-[240px] right-0" alt="" />

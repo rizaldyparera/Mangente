@@ -15,7 +15,7 @@ export default function Explore() {
             <div className="flex flex-col">
                 <div className="flex flex-col text-center">              
                     <h1 className="text-2xl font-bold"><span className="text-red-color">The Heritage </span>of Maluku</h1>
-                    <p className="text-subtitle-color font-medium">Explore various cultural heritages in Maluku. View All</p>
+                    <p className="text-subtitle-color font-medium">Explore various cultural heritages in Maluku. <a href="#" className="text-primary-color hover:text-secondary-color">View All</a></p>
                 </div>
                 <div className="flex justify-center mt-10 sm:px-4">
                     <div className="grid sm:grid-cols-2 gap-5">
