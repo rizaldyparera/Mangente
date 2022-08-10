@@ -16,7 +16,7 @@ function Hero () {
                                     <a  className="bg-primary-color font-inter text-white-color py-3 px-4 rounded-lg items-center font-medium"><i className='relative top-[1px] pr-2 bx bx-paper-plane'></i>Explore Now</a>                                                        
                                 </Link>
                             </div>                          
-                        <div className="flex w-full justify-end">
+                        <div className="flex w-full justify-end mt-5 sm:mt-0">
                             <img src="/Assets/bg-hero.png" className="w-[225px] sm:w-[250px] md:w-[300px] xl:w-[360px] z-40" alt="" />
                         </div>
                         </div>
