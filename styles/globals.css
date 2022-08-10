@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-color
+  }
+  .container {
+      padding: 0 90px;
+  }
+  .container-sm {
+      padding: 0 90px;
+  }
+  .container-md {
+      padding: 0 11rem;
+  }
+  .container-lg {
+      padding: 0 17rem;
+  }
+  .container-xl {
+      padding: 0 360px;
+  }
+}
+
+@layer utilities {
+  .show {
+    display: block;
+  }
+  .flip-img {
+    transform: scaleX(-1);
+  }
+}
