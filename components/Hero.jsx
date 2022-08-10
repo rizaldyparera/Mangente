@@ -5,6 +5,7 @@ function Hero () {
     useEffect(() => {  
         var Audio = document.getElementById("myAudio");
         Audio.autoplay = true;
+        Audio.volume = 0.4;
         Audio.load();
     });
     return (
