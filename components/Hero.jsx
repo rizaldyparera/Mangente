@@ -2,15 +2,9 @@ import Link from "next/link";
 import { useEffect } from 'react';
 
 function Hero () {
-    useEffect(() => {  
-        var Audio = document.getElementById("myAudio");
-        Audio.autoplay = true;
-        Audio.load();
-    });
     return (
         <>
             <div className="pt-5 relative xl:container-sm">
-            <audio id="myAudio" src="/Assets/music.mp3"></audio>
                 <div className="flex flex-col">
                     <div className="flex flex-col px-4">                                    
                            <img src="/Assets/plane.gif" className="w-[180px] h-[180px] relative top-20 md:top-40 lg:top-36 xl:top-44 -left-4 items-center" alt="" />   
